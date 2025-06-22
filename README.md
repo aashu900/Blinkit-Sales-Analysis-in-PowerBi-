@@ -1,94 +1,88 @@
 # HR-Analytics-in-PowerBi-
 
+
 ## Objective
-The main objectives of this project are:
-
-To analyze the sales performance of Blinkit.
-
-To identify sales trends, best-selling products, and top-performing locations.
-
-To find areas where sales can be improved.
-
-To present the findings through a clean and interactive Power BI dashboard.
+The main goal of this HR Analytics project is to analyze employee data to gain insights that can help improve decision-making in areas like employee retention, performance, hiring, and satisfaction. Using Power BI, I built a dashboard that visualizes key HR metrics in an interactive and easy-to-understand way.
 
 ## Tools Used
-Power BI – For creating interactive dashboards.
+Microsoft Power BI
 
-Microsoft Excel / CSV – As the data source.
-
-DAX – For calculated measures and KPIs.
-
-Power Query Editor – For data cleaning and transformation.
+Microsoft Excel (for data cleaning and preparation)
 
 ## Step-by-Step Process
 1. Data Collection
-   Collected Blinkit sales data (e.g., product names, categories, revenue, date, city, quantity sold, etc.)
-
-   Used a CSV or Excel file as the main data source.
-
-2. Data Cleaning
-   Removed duplicate and null values.
-
-   Fixed incorrect formats (dates, numbers).
+   Collected HR-related data including employee age, department, job role, education, experience, attrition, etc.
    
-   Created consistent naming for categories and cities.
+   Used a sample dataset (can be from Kaggle or any HR system).
+   
+2. Data Cleaning
+   Checked for missing values and removed duplicates.
+   
+   Corrected data types (e.g., converting dates, numbers).
+   
+   Removed irrelevant columns.
 
-3. Data Modeling
-   Created relationships between tables (if multiple datasets used).
-
-   Created necessary columns and measures using DAX (e.g., Total Sales, Profit Margin, etc.)
+3. Data Transformation
+   Created new calculated columns (e.g., age group, total working years).
+   
+   Created measures using DAX for KPIs like attrition rate, average salary, and satisfaction level.
 
 4. Dashboard Creation
-   Designed different visuals to show:
+   Designed multiple visuals such as:
+   
+   Attrition by Department
+   
+   Job Satisfaction Level
+   
+   Average Salary by Job Role
+   
+   Years at Company vs Performance
+   
+   Used slicers and filters for user interaction (e.g., by gender, department, education).
 
-   Total Sales and Monthly Trends
+5. Insights & Analysis
+   Analyzed which departments have higher attrition.
+   
+   Identified job roles with low satisfaction.
+   
+   Studied the relationship between experience and performance.
 
-   Top Selling Products
+## Key Results
+   Found that Sales Department has the highest attrition rate.
+   
+   Employees with less than 3 years of experience tend to leave more often.
+   
+   Job satisfaction and monthly income are closely linked to retention.
+   
+   Identified that mid-level employees show the best performance scores.
 
-   Sales by City/Region
+## What I Learned
+   How to clean and prepare HR data effectively in Excel and Power BI.
+   
+   Built DAX measures for deep-level insights.
+   
+   Designed a professional-level interactive dashboard.
+   
+   Understood how analytics can help HR teams take better people-related decisions.
+   
+   Improved storytelling skills through visualizations.
 
-   Category-wise Sales Breakdown
+## How This Report Can Help
+   Helps HR managers track key employee metrics in real-time.
+   
+   Supports decisions in hiring, promotions, and employee engagement.
+   
+   Identifies areas of improvement to reduce attrition and increase satisfaction.
 
-   KPIs like Revenue, Profit, and Order Count
+## Files Included
+   HR_Dashboard.pbix - The main Power BI file.
+   
+   HR_Data.xlsx - Cleaned and prepared dataset.
+   
+   README.md - This documentation file.
 
-5. Insights and Analysis
-   Identified peak sales months and declining trends.
+## Conclusion
+This HR Analytics dashboard provides a smart, data-driven way to understand workforce trends. With Power BI, we can visualize patterns and take actions that improve both employee experience and business performance.
 
-   Found the most profitable product categories.
-
-   Highlighted best-performing cities or regions.
-
-    Spotted underperforming areas needing attention.
-
-## Result and Impact
-  The report gives clear visibility of sales patterns over time.
+ 
   
-  Helps Blinkit managers to make data-driven decisions.
-  
-  Supports inventory planning based on top-selling items.
-  
-  Guides marketing and sales strategy by identifying strong and weak areas.
-  
-  Can be used for monthly and quarterly reviews with stakeholders.
-
-## How This Report Helps Blinkit
-  This Power BI report helps Blinkit by:
-  
-  Saving time on manual analysis.
-  
-  Automating sales performance tracking.
-  
-  Providing real-time business insights.
-  
-  Supporting strategic decision-making to boost sales.
-
-## What I Learned from This Project
-  How to import and clean real-world datasets in Power BI.
-  
-  How to write DAX functions to calculate important metrics.
-  
-  Best practices for data visualization and storytelling.
-  
-  The importance of dashboard design for business reporting.
-  
-  Gained deeper understanding of sales data analysis.
