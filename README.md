@@ -1,6 +1,6 @@
-## Blinkit-Sales-Analysis-in-PowerBi-
+# Blinkit-Sales-Analysis-in-PowerBi-
 
-# Objective
+## Objective
 The main objectives of this project are:
 
 To analyze the sales performance of Blinkit.
@@ -11,7 +11,7 @@ To find areas where sales can be improved.
 
 To present the findings through a clean and interactive Power BI dashboard.
 
-# Tools Used
+## Tools Used
 Power BI – For creating interactive dashboards.
 
 Microsoft Excel / CSV – As the data source.
@@ -20,7 +20,7 @@ DAX – For calculated measures and KPIs.
 
 Power Query Editor – For data cleaning and transformation.
 
-# Step-by-Step Process
+## Step-by-Step Process
 1. Data Collection
    Collected Blinkit sales data (e.g., product names, categories, revenue, date, city, quantity sold, etc.)
 
@@ -29,9 +29,9 @@ Power Query Editor – For data cleaning and transformation.
 2. Data Cleaning
    Removed duplicate and null values.
 
-Fixed incorrect formats (dates, numbers).
-
-Created consistent naming for categories and cities.
+   Fixed incorrect formats (dates, numbers).
+   
+   Created consistent naming for categories and cities.
 
 3. Data Modeling
    Created relationships between tables (if multiple datasets used).
@@ -60,7 +60,7 @@ Created consistent naming for categories and cities.
 
     Spotted underperforming areas needing attention.
 
-# Result and Impact
+## Result and Impact
   The report gives clear visibility of sales patterns over time.
   
   Helps Blinkit managers to make data-driven decisions.
@@ -71,7 +71,7 @@ Created consistent naming for categories and cities.
   
   Can be used for monthly and quarterly reviews with stakeholders.
 
-# How This Report Helps Blinkit
+## How This Report Helps Blinkit
   This Power BI report helps Blinkit by:
   
   Saving time on manual analysis.
@@ -82,7 +82,7 @@ Created consistent naming for categories and cities.
   
   Supporting strategic decision-making to boost sales.
 
-# What I Learned from This Project
+## What I Learned from This Project
   How to import and clean real-world datasets in Power BI.
   
   How to write DAX functions to calculate important metrics.
