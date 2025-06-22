@@ -1,4 +1,4 @@
-# Blinkit-Sales-Analysis-in-PowerBi-
+# HR-Analytics-in-PowerBi-
 
 ## Objective
 The main objectives of this project are:
